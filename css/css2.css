@@ -1,0 +1,89 @@
+body{
+    background: url(../imagenes/fondo.png);
+    background-size: 100%;
+    margin:0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    height: 18vmin;
+    box-shadow: 5px 5px 5px 5px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+header img{
+    width: 20%;
+    margin-top: 2.8%;
+    margin-left: 7%;
+}
+
+.gifb{
+    width: 15%;
+    float: left;
+    margin-left: -15%;
+}
+
+.sur{
+    margin-left: 2.5%;
+}
+
+.crea{
+    margin-left: -2.5%;
+}
+
+.serv{
+    margin-left: -5%;
+}
+
+.cont{
+    margin-right: -5%;
+}
+
+ul {
+    width: 60%;
+    margin-left: 31.5%;
+    margin-top: -3%;
+    list-style-type: none;
+    overflow: hidden;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-image: url(../imagenes/madera.png);
+    background-size: 52%;
+    
+}
+
+li {
+    height: 4.5vmin;
+    float: left;
+    width: 20%;
+}
+
+li a {
+    float: left;
+    height: 4.5vmin;
+    font-size: 2vmin;
+    display: block;
+    color: white;
+    padding: 1vmin 2vmin;
+}
+
+.animacion {
+    display: inline-block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    }
+    .animacion:before,
+    .animacion:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: rgb(255, 255, 255);
+    transition: all .8s;
+    }
+    .animacion:hover:before,
+    .animacion:hover:after {
+    width: 100%;
+    }

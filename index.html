@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft - Práctica Web Ignacio Maeso</title>
+    <link rel="stylesheet" href="css/css1.css">
+    <link rel="icon" type="image/png" href="imagenes/icon.png">
+</head>
+
+<!-- SOLUCIONAR ANLCA CONTACTO SUB-PÁGINAS -->  
+
+<body>
+    <header>
+        <a class="ahead" href="https://www.minecraft.net" target="_blank"><img class="img1" src="imagenes/Minecraft-IMC.png" alt="1"></a>
+        <ul>
+            <li class="sur"><img src="imagenes/block.gif" class="gifb" alt="1"><a class="animacion" href="html/survival.html"> Supervivencia</a></li>
+            <li class="crea"><img src="imagenes/diamond.gif" class="gifb" alt="1"><a class="animacion" href="html/creativo.html">Creativo</a></li>
+            <li class="serv"><img src="imagenes/fire.gif" class="gifb" alt="1"><a class="animacion" href="html/servidores.html">Servidores</a></li>
+            <li class="cont" style="float:right"><a class="animacion" class="verde" href="#form">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="div1 divs">
+            <p class="ps">
+                Minecraft es un juego muy famoso nacido en el 2011, desarrollado unica y exclusivamente por Markus Persson (Notch),
+                aunque obviamente, con el tiempo, se integró un equipo de desarrollo.
+                <br/>
+                <br/>
+                En poco tiempo, Minecraft se convirtió en un juego, jugado por miles y miles de personas, se volvío tan famoso, que a
+                día de hoy tiene más de 200 millones de copias vendidas y 126 millones de usuarios activos al mes, una completa locura.
+                <br/>
+                <br/>
+                Nos introduciremos más en fondo sobre todo lo que es el propio juego, ya que este consta con dos "modos de juego" principales
+                para jugar, Supervivencia, y Creativo.
+                También está disponible una especie de survival a lo gordo, el modo Hardcore, en el que si mueres una sola vez, el mundo y
+                todo lo que tenías avanzado, se borrará.
+                <br/>
+                <br/>
+                También consta con un multijugador, en el que, tu como dueño de un futuro servidor, puedes crear uno, hostearlo tu, o en
+                servidores dedicados, y programarlo, añadir los modos de juego que tu quiereas y un largo etc...
+                <br/>
+                Estos servidores es una de las principales cosas que mantiene vivo a minecraft, fuera de sus survival, que también es muy jugado. 
+            </p>
+        </div>
+        <div id="form"></div>
+        <form class="form-register" action="mailto:naesocruz@gmail.com" method="GET">
+            <h4>Contacto</h4>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Pon tu Nombre">
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Pon tu Apellido">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Pon tu Correo">
+            <textarea class="controls" name="message" rows="10" cols="50" placeholder="Explica tu duda, o consulta."></textarea>
+            <button class="boton" type="submit">Enviar</button>
+            <input class="reset" type="reset" value="Borrar">
+        </form>
+    </main>
+    <footer>
+        <table class="tabla">
+            <tr>
+              <th>Contacto Personal</th>
+              <th>Curso</th>
+              <th>Dirección</th>
+            </tr>
+            <tr>
+              <td>Inacio Maeso Cruz +34 687 20 88 40</td>
+              <td>1º ASIR Sub-Grupo A</td>
+              <td>Paseo de la Estación, 44, 23008 Jaén</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.instagram.com/naxo_maeso/" target="blank"><img class="imgwi" src="imagenes/ins.png" alt=""></a></td>
+                <td><a href="https://twitter.com/home" target="blank"><img class="imgwi" src="imagenes/tw.png" alt=""></a></td>
+                <td><a href="mailto:naesocruz@gmail.com"><img class="imgwi" src="imagenes/mail.png" alt=""></a></td>
+              </tr>
+          </table> 
+    </footer>
+</body>
+</html>
